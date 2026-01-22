@@ -3,6 +3,11 @@
   justify-self: center;
 }
 
-#project-image{
+#project-image {
   max-width: 60dvw;
+}
+
+.Skills {
+  margin-top: 20px;
+  margin-bottom: 50px;
 }

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
@@ -21,11 +21,7 @@
     <header class="header">
       <div class="header__brand">
         <a href="#home" class="menu__link">
-          <img
-            class="brand__logo"
-            src="./assets/Images/Logo_Temporaria.png"
-            alt="Logo"
-          />
+          <img class="brand__logo" src="./assets/Images/Logo.png" alt="Logo" />
         </a>
       </div>
       <nav class="header__nav">
@@ -78,7 +74,7 @@
             </a>
           </li>
           <li class="menu__item">
-            <a class="menu__link" href="#Contatos">
+            <a class="menu__link" href="#contatos">
               <i class="menu__icon bi bi-envelope"></i>
               <span class="menu__text">Contatos</span>
             </a>
@@ -94,6 +90,7 @@
           Gabriel Da Silva Vasconcelos, Rio de Janeiro-RJ, Desenvolvedor
           FrontEnd e FullStack
         </p>
+        <p>Email: modestiagabriel@gmail.com | Telefone: +55 21 99703-6355</p>
 
         <ul class="menu menu--social">
           <li>
@@ -181,7 +178,7 @@
         <li class="skills__item">
           <img
             class="skills__logo"
-            src="assets/Images/Technologies/python.png"
+            src="assets/Images/Technologies/python.svg"
             alt=""
           />
         </li>
@@ -189,6 +186,13 @@
           <img
             class="skills__logo"
             src="assets/Images/Technologies/css.svg"
+            alt=""
+          />
+        </li>
+        <li class="skills__item">
+          <img
+            class="skills__logo"
+            src="assets/Images/Technologies/mysql-svgrepo-com.svg"
             alt=""
           />
         </li>
@@ -222,7 +226,10 @@
             </p>
 
             <div class="buttons" id="btn1">
-              <a href="./infoProject.html?project=refazendo_youtube" class="btn btn--primary">
+              <a
+                href="./infoProject.html?project=refazendo_youtube"
+                class="btn btn--primary"
+              >
                 <span>Detalhes</span>
                 <i class="bi bi-box-arrow-up-right"></i>
               </a>
@@ -257,7 +264,10 @@
             </p>
 
             <div class="buttons">
-              <a href="./infoProject.html?project=diabetes" class="btn btn--primary">
+              <a
+                href="./infoProject.html?project=diabetes"
+                class="btn btn--primary"
+              >
                 <span>Detalhes</span>
                 <i class="bi bi-box-arrow-up-right"></i>
               </a>
@@ -291,7 +301,10 @@
             </p>
 
             <div class="buttons">
-              <a href="./infoProject.html?project=yu-gi-oh" class="btn btn--primary">
+              <a
+                href="./infoProject.html?project=yu-gi-oh"
+                class="btn btn--primary"
+              >
                 <span>Detalhes</span>
                 <i class="bi bi-box-arrow-up-right"></i>
               </a>
@@ -323,7 +336,10 @@
 
             <div class="buttons">
               <!-- Adicionando o acesso ao projeto no Href usando a nomeclatura "?project=pokedex " -->
-              <a href="./infoProject.html?project=pokedex" class="btn btn--primary">
+              <a
+                href="./infoProject.html?project=pokedex"
+                class="btn btn--primary"
+              >
                 <span>Detalhes</span>
                 <i class="bi bi-box-arrow-up-right"></i>
               </a>
@@ -351,26 +367,37 @@
     </section>
     <!-- +====================== Contato ==========================+ -->
     <footer id="contatos">
-      <h1>Contato!</h1>
-      <p>Sinta-se à vontade para entrar em contato comigo!</p>
+      <h1>Contato</h1>
+      <p>
+        <strong>Email:</strong> modestiagabriel@gmail.com |
+        <strong>Telefone:</strong> +55 21 99703-6355
+      </p>
+      <br /><br />
+      <p>Envie um e-mail utilizando o formulário abaixo:</p>
+      <br />
       <section class="contact" id="contact">
-        <form action="mailto:emtudonoob@gmail.com" method="post" data-form>
+        <form
+          action="mailto:emtudonoob@gmail.com"
+          method="post"
+          enctype="text/plain"
+        >
           <label for="name">Name: </label>
-          <input type="text" id="name" name="name" required />
+          <input type="text" id="name" name=" name " />
           <br />
-          <label for="email">Email: </label>
-          <input type="email" id="email" name="email" required />
-          <br />
+
+          <!-- <label for="email">Email: </label> 
+          <input type="email" id="email" name=" email " />-->
           <label for="message">Message: </label>
-          <textarea id="message" name="message" required></textarea>
+          <textarea id="message" name=" message "></textarea>
           <br />
           <section>
             <div id="submit">
-              <button class="btn btn--primary" type="submit" data-button>
+              <button class="btn btn--primary" type="submit">
                 <span>Enviar</span>
                 <i class="bi bi-envelope-paper"></i>
               </button>
             </div>
+            <br />
             <div id="apagar">
               <button class="btn btn--primary" type="reset">
                 <span>Apagar</span>
